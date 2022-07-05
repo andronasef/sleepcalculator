@@ -9,7 +9,7 @@
 <main class="main">
   <div class="container">
     <center>
-      <img src="sleepcalculator/logo.svg" alt="" class="logo" />
+      <img src="/sleepcalculator/logo.svg" alt="" class="logo" />
     </center>
     <p>
       The average human takes 15 minutes to fall asleep. <br /> If you go to sleep

@@ -1,5 +1,6 @@
 <script>
   import dayjs from 'dayjs'
+  import Pwa from './lib/PWA.svelte'
 
   let cycles = Array.from({ length: 6 }, (_, i) => i + 1).reverse()
 
@@ -40,6 +41,8 @@
     </p>
   </div>
 </main>
+
+<Pwa />
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');

@@ -1,4 +1,5 @@
-<!-- <script lang="ts">
+<script lang="ts">
+  // @ts-ignore
   import { useRegisterSW } from 'virtual:pwa-register/svelte'
 
   const { offlineReady, needRefresh, updateServiceWorker } = useRegisterSW({
@@ -58,4 +59,4 @@
     border-radius: 2px;
     padding: 3px 10px;
   }
-</style> -->
+</style>
